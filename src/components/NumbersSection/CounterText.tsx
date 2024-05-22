@@ -20,6 +20,7 @@ export const CounterText = ({
   endAdornment,
 }: CounterTextProps) => {
   const ref = useRef<HTMLDivElement | null>(null);
+  
   const value = useIntersectionCounter({
     containerRef: ref,
     targetValue,

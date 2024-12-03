@@ -5,7 +5,6 @@ import { Button, Title } from "@/ui";
 
 type Link = { href: string; label: string };
 const links: Link[] = [
-  { href: "https://bismuth.finance", label: "Main Site" },
   { href: "https://discord.gg/ADfwYbQJ7q", label: "Discord" },
   { href: "https://twitter.com/BismuthTechGem", label: "X (Twitter)" },
   {
